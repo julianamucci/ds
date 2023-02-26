@@ -1,0 +1,22 @@
+{
+  "name": "@julianamucci/design-tokens",
+  "version": "0.1.0",
+  "description": "Estudo de Design Tokens",
+  "main": "index.js",
+  "author": "Juliana Mucci",
+  "scripts": {
+    "build": "node src/index.js",
+    "build:dev": "rm -rf dist && node src/index.js"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julianamucci/ds"
+  }, 
+  "files": [
+    "dist"
+],
+  "dependencies": {
+    "style-dictionary": "^3.7.2"
+  }
+}
